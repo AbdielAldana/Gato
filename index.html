@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="interfaz">
+        <div class="datos1">
+            <h2>Jugador <span id="xplayer">1</span> es X</h2>
+            <hr>
+            <h1><span id="turno">TURNO: X </span></h1>
+            <hr>
+            <h3>GANADAS</h3>
+            <div><h3>Jugador 1: <span id="win1">0</span></h3>  <h3>Jugador 2: <span id="win2">0</span></h3></div>
+        </div>
+        <div id="contenedor" class="contenedor">
+            <div class="linea" id="linea1"></div>
+            <div class="linea" id="linea2"></div>
+            <div class="linea" id="linea3"></div>
+            <div class="linea" id="linea4"></div>
+
+            <div id="p1" class="box" onclick="clickcasilla(0)">
+                <div class="x hidden"></div>
+                <div class="o hidden"></div>
+            </div>
+            <div id="p2" class="box" onclick="clickcasilla(1)">
+                <div class="x hidden"></div>
+                <div class="o hidden"></div>
+            </div>
+            <div id="p3" class="box" onclick="clickcasilla(2)">
+                <div class="x hidden"></div>
+                <div class="o hidden"></div>
+            </div>
+            <div id="p4" class="box" onclick="clickcasilla(3)">
+                <div class="x hidden"></div>
+                <div class="o hidden"></div>
+            </div>
+            <div id="p5" class="box" onclick="clickcasilla(4)">
+                <div class="x hidden"></div>
+                <div class="o hidden"></div>
+            </div>
+            <div id="p6" class="box" onclick="clickcasilla(5)">
+                <div class="x hidden"></div>
+                <div class="o hidden"></div>
+            </div>
+            <div id="p7" class="box" onclick="clickcasilla(6)">
+                <div class="x hidden"></div>
+                <div class="o hidden"></div>
+            </div>
+            <div id="p8" class="box" onclick="clickcasilla(7)">
+                <div class="x hidden"></div>
+                <div class="o hidden"></div>
+            </div>
+            <div id="p9" class="box" onclick="clickcasilla(8)">
+                <div class="x hidden"></div>
+                <div class="o hidden"></div>
+            </div>
+        </div>
+        <div class="datos2">
+            <div class="button" onclick="reiniciar()"><h3>REINICIAR</h3></div>
+            <div class="button2" onclick="limpiar()"><h3>OTRA VEZ</h3></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
